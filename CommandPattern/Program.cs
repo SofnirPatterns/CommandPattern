@@ -10,7 +10,7 @@ namespace CommandPattern
     {
         static void Main(string[] args)
         {
-            SimpleRemoteControl remote = new SimpleRemoteControl();\
+            SimpleRemoteControl remote = new SimpleRemoteControl();
 
             Light light = new Light();
             SwitchOnCommand switchOnLight = new SwitchOnCommand(light);
